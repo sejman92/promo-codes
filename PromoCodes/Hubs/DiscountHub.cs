@@ -37,12 +37,6 @@ public class DiscountHub : Hub<IDiscountClient>
         return base.OnDisconnectedAsync(exception);
     }
     
-    public Task TextMe(string message)
-    {
-        _logger.Log($"TextMe: {message}");
-        return Task.CompletedTask;
-    }
-    
     public async Task GenerateCodes(GenerateRequest request)
     {
         var validationResult = await _generateRequestValidator.ValidateAsync(request);
