@@ -110,7 +110,7 @@ public class DiscountHub : Hub<IDiscountClient>
             }
             else
             {
-                File.Create(StorageFile);
+                await using (File.Create(StorageFile));
             }
         }
         finally

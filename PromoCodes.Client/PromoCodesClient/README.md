@@ -64,6 +64,30 @@ This application allows you to generate and use discount codes by connecting to 
 
 <img src="./readme-content/demo.gif" alt="Use code example" width="50%">
 
+### How to Start the Application
+
+To start the PromoCodes Client application, follow these steps:
+
+1. **Install Dependencies**:
+  - Open a terminal and navigate to the project directory.
+  - Run the following command to install the required dependencies:
+    ```sh
+    npm install
+    ```
+
+2. **Start the Development Server**:
+  - After the dependencies are installed, start the development server by running:
+    ```sh
+    npm run dev
+    ```
+  - This will start the Vite development server and you should see output indicating that the server is running.
+
+3. **Open the Application in a Browser**:
+  - Open your web browser and navigate to `http://localhost:3000`.
+  - You should see the PromoCodes Client application running.
+
+Now you are ready to use the PromoCodes Client application!
+
 ### Steps to Use the App
 
 1. **Connect to the Server**:
