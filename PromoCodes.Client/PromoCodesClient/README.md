@@ -7,11 +7,6 @@ PromoCodes Client is a web application that allows users to generate and use dis
 1. [React + TypeScript + Vite](#react--typescript--vite)
 2. [Expanding the ESLint configuration](#expanding-the-eslint-configuration)
 3. [How to Use the App](#how-to-use-the-app)
-   - [Steps to Use the App](#steps-to-use-the-app)
-     - [Connect to the Server](#connect-to-the-server)
-     - [Generate Discount Codes](#generate-discount-codes)
-     - [Use a Discount Code](#use-a-discount-code)
-   - [Example](#example)
 
 # React + TypeScript + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -67,6 +62,8 @@ export default tseslint.config({
 
 This application allows you to generate and use discount codes by connecting to a SignalR server.
 
+<img src="./readme-content/demo.gif" alt="Use code example" width="50%">
+
 ### Steps to Use the App
 
 1. **Connect to the Server**:
@@ -102,6 +99,4 @@ This application allows you to generate and use discount codes by connecting to 
 3. Use one of the generated discount codes.
 4. Check the response to see if the code was used successfully.
 
-
-<video controls src="./readme-content/usage-example.mp4" title="Usage Example"></video>
 
