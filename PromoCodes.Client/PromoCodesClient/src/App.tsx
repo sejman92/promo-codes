@@ -24,7 +24,7 @@ const App = () => {
       }
 
       if (response.result === true) {
-        alert("Requested codes has been generated.");
+        alert("Requested codes have been generated.");
       }
       else {
         alert("Failed to generate codes.");
