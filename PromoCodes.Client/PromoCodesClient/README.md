@@ -1,5 +1,19 @@
-# React + TypeScript + Vite
+# PromoCodes Client
 
+PromoCodes Client is a web application that allows users to generate and use discount codes by connecting to a SignalR server. This app is built using React, TypeScript, and Vite, providing a fast and efficient development experience.
+
+# Table of Contents
+
+1. [React + TypeScript + Vite](#react--typescript--vite)
+2. [Expanding the ESLint configuration](#expanding-the-eslint-configuration)
+3. [How to Use the App](#how-to-use-the-app)
+   - [Steps to Use the App](#steps-to-use-the-app)
+     - [Connect to the Server](#connect-to-the-server)
+     - [Generate Discount Codes](#generate-discount-codes)
+     - [Use a Discount Code](#use-a-discount-code)
+   - [Example](#example)
+
+# React + TypeScript + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
